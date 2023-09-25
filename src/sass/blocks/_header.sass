@@ -1,0 +1,47 @@
+.header
+    height: 101px
+    background-color: $main-color
+    .navigation
+        height: 100%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &_logo
+            width: 190px
+            img
+                width: 100%
+        .menu
+            height: 100%
+            display: flex
+            justify-content: space-between 
+            list-style-type: none
+            align-items: center
+            text-align: center
+            padding-left: 0
+            margin-left: 50px
+            &_link
+                color: #FFF
+                font-size: 16px
+                font-weight: 400
+                text-decoration: none
+            &_item:not(:last-child)
+                padding-right: 78px
+        .search
+            display: flex
+            justify-content: end
+            align-items: center
+            color: #FFF
+            font-size: 16px
+            font-weight: 400
+            &_img
+                margin-left: 6px
+        .button_login
+            width: 166px
+            height: 50px
+            border-radius: 200px
+            background: #FFF
+            border: none
+            color: $main-color
+            text-align: center
+            font-size: 16px
+            font-weight: 400
